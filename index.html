@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/Styles.css" />
+    <link rel="stylesheet" href="css/glightbox.min.css" />
     <title>My Portfolio</title>
   </head>
   <body>
@@ -22,8 +23,186 @@
       <section class="hero-text-box">
         <h1 class="hero-heading">Creativity Like and Ocean Wave</h1>
         <p class="hero-text">Surf on with Duong Tran's creative projects</p>
+        <p>
+          <a href="#portfolio">
+            <button type="button" class="hero-button">View Portfolio</button>
+          </a>
+        </p>
       </section>
     </header>
     <!--End Hero Header-->
+
+    <!--Begin Portfolio-->
+    <section id="portfolio" class="portfolio-containter">
+      <h1>Portfolio</h1>
+      <section class="portfolio-gallery">
+        <div class="gallery-item">
+          <a
+            href="img/mutona-othenton-ajwain-flower.jpg"
+            class="glightbox"
+            data-glightbox="title: Flower; description: this is an amazing flower I took"
+          >
+            <img
+              src="img/mutona-othenton-ajwain-flower.jpg"
+              alt="An image of flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            href="img/mutona-othenton-false-bindweed-flower.jpg"
+            class="glightbox"
+          >
+            <img
+              src="img/mutona-othenton-false-bindweed-flower.jpg"
+              alt="An image of bindweed flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            href="img/mutona-othenton-golden-yellow-flower.jpg"
+            class="glightbox"
+          >
+            <img
+              src="img/mutona-othenton-golden-yellow-flower.jpg"
+              alt="An image of golden yellow flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            href="img/mutona-othenton-ground-rose-photograph.jpg"
+            class="glightbox"
+          >
+            <img
+              src="img/mutona-othenton-ground-rose-photograph.jpg"
+              alt="An image of ground rose flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            href="img/mutona-othenton-hawaiian-hibiscus-flower-photograph.jpg"
+            class="glightbox"
+          >
+            <img
+              src="img/mutona-othenton-hawaiian-hibiscus-flower-photograph.jpg"
+              alt="An image of hawaiian hibiscus flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="img/mutona-othenton-moth-orchid.jpg" class="glightbox">
+            <img
+              src="img/mutona-othenton-moth-orchid.jpg"
+              alt="An image of moth orchid flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            href="img/mutona-othenton-orange-lilly-photograph.jpg"
+            class="glightbox"
+          >
+            <img
+              src="img/mutona-othenton-orange-lilly-photograph.jpg"
+              alt="An image of orange lilly flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="img/mutona-othenton-purple-flowers.jpg" class="glightbox">
+            <img
+              src="img/mutona-othenton-purple-flowers.jpg"
+              alt="An image of purple flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="img/mutona-othenton-purple-geranium.jpg" class="glightbox">
+            <img
+              src="img/mutona-othenton-purple-geranium.jpg"
+              alt="An image of purple geranium flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="img/mutona-othenton-red-melastomes.jpg" class="glightbox">
+            <img
+              src="img/mutona-othenton-red-melastomes.jpg"
+              alt="An image of red melastomes flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="img/mutona-othenton-very-orange-lilly.jpg" class="glightbox">
+            <img
+              src="img/mutona-othenton-very-orange-lilly.jpg"
+              alt="An image of very orange lilly flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            href="img/mutona-othenton-white-hydrangea-flower-photograph.jpg"
+            class="glightbox"
+          >
+            <img
+              src="img/mutona-othenton-white-hydrangea-flower-photograph.jpg"
+              alt="An image of white hydrangea flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a
+            href="img/mutona-othenton-white-profusion-flower.jpg"
+            class="glightbox"
+          >
+            <img
+              src="img/mutona-othenton-white-profusion-flower.jpg"
+              alt="An image of white profusion flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="img/purple-white-flowers.jpg" class="glightbox">
+            <img
+              src="img/purple-white-flowers.jpg"
+              alt="An image of purple white flower"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+        <div class="gallery-item">
+          <a href="img/mutona-othenton-profile.jpg" class="glightbox">
+            <img
+              src="img/mutona-othenton-profile.jpg"
+              alt="An image of profile"
+              class="gallery-img"
+            />
+          </a>
+        </div>
+      </section>
+    </section>
+    <!--End Portfolio-->
+
+    <script src="js/glightbox.min.js"></script>
+    <script type="text/javascript">
+      const lightbox = GLightbox({ loop: true });
+    </script>
   </body>
 </html>
